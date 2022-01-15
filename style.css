@@ -1,0 +1,22 @@
+a,a:link{
+    text-decoration: none;
+    color:white;
+}
+
+a:hover{
+    color:red;
+}
+
+.helper-form{
+    display:none;
+    opacity: 0;
+    transform:translateY(-50px);
+    transition:1s all linear;
+}
+
+.show{
+    display:flex;
+    opacity:1;
+    transform:translateY(0);
+    transition:1s all linear;
+}
